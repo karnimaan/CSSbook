@@ -1,0 +1,19 @@
+div{
+    height: 20px;
+    width: 20px;
+    border: 8px dotted rgb(129, 123, 123);
+    border-left: 8px dotted grey;
+    border-right: 8px dotted grey;
+    border-radius: 50%;
+    animation-name: myLoader;
+    animation: myLoader 3s ease 0s infinite normal;
+}
+
+@keyframes myLoader{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
